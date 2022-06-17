@@ -51,6 +51,8 @@ public class biglietteria {
 		}while(ripeti.equalsIgnoreCase("si"));
 		
 		System.out.println("Grazie, arrivederci!");
+		
+		scan.close();
 	}
 
 }
