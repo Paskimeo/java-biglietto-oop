@@ -22,7 +22,14 @@ public class biglietteria {
 		//inserimento classe
 		 biglietto ticket = new  biglietto(eta, km);
 		 
-		 
+		 //inserimento calcolo biglietto con dati inseriti dall'utente
+			if(eta < 18) {
+				System.out.println("il costo del tuo biglietto è: " + ticket.prezzoBase());
+			}else if (eta > 65) {
+				System.out.println("il costo del tuo biglietto è: " + ticket.prezzoBase());
+			}else {
+				System.out.println("il costo del tuo biglietto è: " + ticket.prezzoBase());
+			}
 	}
 
 }
